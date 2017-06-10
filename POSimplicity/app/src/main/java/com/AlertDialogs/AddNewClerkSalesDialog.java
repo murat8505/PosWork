@@ -39,7 +39,7 @@ import java.util.List;
 
 public class AddNewClerkSalesDialog implements PrefrenceKeyConst, OnItemSelectedListener ,WebServiceCallObjectIds ,WebCallBackListener {
 
-	private AlertDialog alertDialog = null;
+	private AlertDialog mAlertDialog = null;
 	private Context mContext;
 	private String staffName;
 	private AddClerkSalesActivity activity;
@@ -106,7 +106,7 @@ public class AddNewClerkSalesDialog implements PrefrenceKeyConst, OnItemSelected
 
 				staffName                          = editText.getText().toString();
 				editText2.getText().toString();
-				alertDialog.dismiss();
+				mAlertDialog.dismiss();
 
 				if(staffName.isEmpty()){
 					ToastUtils.showOwnToast(mContext, "Please Enter Clerk Name");
@@ -139,12 +139,12 @@ public class AddNewClerkSalesDialog implements PrefrenceKeyConst, OnItemSelected
 		builder.setNegativeButton("Cancel", new OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
-				alertDialog.dismiss();
+				mAlertDialog.dismiss();
 			}
 		});
 
-		alertDialog = builder.create();
-		alertDialog.show();
+		mAlertDialog = builder.create();
+		mAlertDialog.show();
 	}
 
 	@Override
