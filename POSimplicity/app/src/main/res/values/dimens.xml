@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- @ Author Shivam Garg -->
+<resources>
+
+    <!-- All Dimensions Values From 50 to 1 in DP -->
+    <!-- This file will be used for the Margin,padding,width, height, -->
+    
+    <dimen name="bluetooth_spp_text_size">18sp</dimen>
+    <dimen name="bluetooth_spp_padding">5dp</dimen>
+
+    <dimen name="factor_mdpi_50_dp">50dp</dimen>
+    <dimen name="factor_mdpi_49_dp">49dp</dimen>
+    <dimen name="factor_mdpi_48_dp">48dp</dimen>
+    <dimen name="factor_mdpi_47_dp">47dp</dimen>
+    <dimen name="factor_mdpi_46_dp">46dp</dimen>
+    <dimen name="factor_mdpi_45_dp">45dp</dimen>
+    <dimen name="factor_mdpi_44_dp">44dp</dimen>
+    <dimen name="factor_mdpi_43_dp">43dp</dimen>
+    <dimen name="factor_mdpi_42_dp">42dp</dimen>
+    <dimen name="factor_mdpi_41_dp">41dp</dimen>
+    <dimen name="factor_mdpi_40_dp">40dp</dimen>
+    <dimen name="factor_mdpi_39_dp">39dp</dimen>
+    <dimen name="factor_mdpi_38_dp">38dp</dimen>
+    <dimen name="factor_mdpi_37_dp">37dp</dimen>
+    <dimen name="factor_mdpi_36_dp">36dp</dimen>
+    <dimen name="factor_mdpi_35_dp">35dp</dimen>
+    <dimen name="factor_mdpi_34_dp">34dp</dimen>
+    <dimen name="factor_mdpi_33_dp">33dp</dimen>
+    <dimen name="factor_mdpi_32_dp">32dp</dimen>
+    <dimen name="factor_mdpi_31_dp">31dp</dimen>
+    <dimen name="factor_mdpi_30_dp">30dp</dimen>
+    <dimen name="factor_mdpi_29_dp">29dp</dimen>
+    <dimen name="factor_mdpi_28_dp">28dp</dimen>
+    <dimen name="factor_mdpi_27_dp">27dp</dimen>
+    <dimen name="factor_mdpi_26_dp">26dp</dimen>
+    <dimen name="factor_mdpi_25_dp">25dp</dimen>
+    <dimen name="factor_mdpi_24_dp">24dp</dimen>
+    <dimen name="factor_mdpi_23_dp">23dp</dimen>
+    <dimen name="factor_mdpi_22_dp">22dp</dimen>
+    <dimen name="factor_mdpi_21_dp">21dp</dimen>
+    <dimen name="factor_mdpi_20_dp">20dp</dimen>
+    <dimen name="factor_mdpi_19_dp">19dp</dimen>
+    <dimen name="factor_mdpi_18_dp">18dp</dimen>
+    <dimen name="factor_mdpi_17_dp">17dp</dimen>
+    <dimen name="factor_mdpi_16_dp">16dp</dimen>
+    <dimen name="factor_mdpi_15_dp">15dp</dimen>
+    <dimen name="factor_mdpi_14_dp">14dp</dimen>
+    <dimen name="factor_mdpi_13_dp">13dp</dimen>
+    <dimen name="factor_mdpi_12_dp">12dp</dimen>
+    <dimen name="factor_mdpi_11_dp">11dp</dimen>
+    <dimen name="factor_mdpi_10_dp">10dp</dimen>
+    <dimen name="factor_mdpi_09_dp">9dp</dimen>
+    <dimen name="factor_mdpi_08_dp">8dp</dimen>
+    <dimen name="factor_mdpi_07_dp">7dp</dimen>
+    <dimen name="factor_mdpi_06_dp">6dp</dimen>
+    <dimen name="factor_mdpi_05_dp">5dp</dimen>
+    <dimen name="factor_mdpi_04_dp">4dp</dimen>
+    <dimen name="factor_mdpi_03_dp">3dp</dimen>
+    <dimen name="factor_mdpi_02_dp">2dp</dimen>
+    <dimen name="factor_mdpi_01_dp">1dp</dimen>
+
+    <!-- Some Special DP Values -->
+    <dimen name="factor_mdpi_218_dp">218dp</dimen>
+    <dimen name="factor_mdpi_200_dp">200dp</dimen>
+    <dimen name="factor_mdpi_290_dp">290dp</dimen>
+    <dimen name="factor_mdpi_72_dp">72dp</dimen>
+    <dimen name="factor_mdpi_60_dp">60dp</dimen>
+    <dimen name="factor_mdpi_152_dp">152dp</dimen>
+    <dimen name="factor_mdpi_134_dp">134dp</dimen>
+    <dimen name="factor_mdpi_132_dp">132dp</dimen>
+
+    <!-- All Text Size Values from 50 to 1 in SP -->
+    <!-- This file will be used for TextSize -->
+
+    <dimen name="textAppearance_mdpi_50_sp">50sp</dimen>
+    <dimen name="textAppearance_mdpi_49_sp">49sp</dimen>
+    <dimen name="textAppearance_mdpi_48_sp">48sp</dimen>
+    <dimen name="textAppearance_mdpi_47_sp">47sp</dimen>
+    <dimen name="textAppearance_mdpi_46_sp">46sp</dimen>
+    <dimen name="textAppearance_mdpi_45_sp">45sp</dimen>
+    <dimen name="textAppearance_mdpi_44_sp">44sp</dimen>
+    <dimen name="textAppearance_mdpi_43_sp">43sp</dimen>
+    <dimen name="textAppearance_mdpi_42_sp">42sp</dimen>
+    <dimen name="textAppearance_mdpi_41_sp">41sp</dimen>
+    <dimen name="textAppearance_mdpi_40_sp">40sp</dimen>
+    <dimen name="textAppearance_mdpi_39_sp">39sp</dimen>
+    <dimen name="textAppearance_mdpi_38_sp">38sp</dimen>
+    <dimen name="textAppearance_mdpi_37_sp">37sp</dimen>
+    <dimen name="textAppearance_mdpi_36_sp">36sp</dimen>
+    <dimen name="textAppearance_mdpi_35_sp">35sp</dimen>
+    <dimen name="textAppearance_mdpi_34_sp">34sp</dimen>
+    <dimen name="textAppearance_mdpi_33_sp">33sp</dimen>
+    <dimen name="textAppearance_mdpi_32_sp">32sp</dimen>
+    <dimen name="textAppearance_mdpi_31_sp">31sp</dimen>
+    <dimen name="textAppearance_mdpi_30_sp">30sp</dimen>
+    <dimen name="textAppearance_mdpi_29_sp">29sp</dimen>
+    <dimen name="textAppearance_mdpi_28_sp">28sp</dimen>
+    <dimen name="textAppearance_mdpi_27_sp">27sp</dimen>
+    <dimen name="textAppearance_mdpi_26_sp">26sp</dimen>
+    <dimen name="textAppearance_mdpi_25_sp">25sp</dimen>
+    <dimen name="textAppearance_mdpi_24_sp">24sp</dimen>
+    <dimen name="textAppearance_mdpi_23_sp">23sp</dimen>
+    <dimen name="textAppearance_mdpi_22_sp">22sp</dimen>
+    <dimen name="textAppearance_mdpi_21_sp">21sp</dimen>
+    <dimen name="textAppearance_mdpi_20_sp">20sp</dimen>
+    <dimen name="textAppearance_mdpi_19_sp">19sp</dimen>
+    <dimen name="textAppearance_mdpi_18_sp">18sp</dimen>
+    <!-- <dimen name="textAppearance_mdpi_17_sp">17sp</dimen> -->
+    <dimen name="textAppearance_mdpi_16_sp">16sp</dimen>
+    <dimen name="textAppearance_mdpi_15_sp">15sp</dimen>
+    <dimen name="textAppearance_mdpi_14_sp">14sp</dimen>
+    <dimen name="textAppearance_mdpi_13_sp">13sp</dimen>
+    <dimen name="textAppearance_mdpi_12_sp">12sp</dimen>
+    <dimen name="textAppearance_mdpi_11_sp">11sp</dimen>
+    <dimen name="textAppearance_mdpi_10_sp">10sp</dimen>
+    <dimen name="textAppearance_mdpi_09_sp">9sp</dimen>
+    <dimen name="textAppearance_mdpi_08_sp">8sp</dimen>
+    <dimen name="textAppearance_mdpi_07_sp">7sp</dimen>
+    <dimen name="textAppearance_mdpi_06_sp">6sp</dimen>
+    <dimen name="textAppearance_mdpi_05_sp">5sp</dimen>
+    <dimen name="textAppearance_mdpi_04_sp">4sp</dimen>
+    <dimen name="textAppearance_mdpi_03_sp">3sp</dimen>
+    <dimen name="textAppearance_mdpi_02_sp">2sp</dimen>
+    <dimen name="textAppearance_mdpi_01_sp">1sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+</resources>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/keyss_keyregister_sales_bg"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topstrip" >
+
+            <DigitalClock
+                android:id="@+id/digitalClock1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="Shift Reports"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textAppearance_mdpi_18_sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/factor_mdpi_08_dp"
+        android:layout_weight="68" >
+
+        <ListView
+            android:id="@+id/daliyReportListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/printReportt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/factor_mdpi_01_dp"
+                android:layout_weight="1"
+                android:background="@drawable/counter_bg"
+                android:text="Print Report"
+                android:textSize="@dimen/textAppearance_mdpi_12_sp" />
+
+            <Button
+                android:id="@+id/newShift"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/factor_mdpi_01_dp"
+                android:layout_weight="1"
+                android:background="@drawable/counter_bg"
+                android:text="New Shift"
+                android:textSize="@dimen/textAppearance_mdpi_12_sp" />
+
+            <Button
+                android:id="@+id/cancelShift"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/factor_mdpi_01_dp"
+                android:layout_weight="1"
+                android:background="@drawable/counter_bg"
+                android:text="@string/back"
+                android:textSize="@dimen/textAppearance_mdpi_12_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="4" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:drawableLeft="@drawable/icon_7"
+        android:drawablePadding="@dimen/factor_mdpi_05_dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/admin_settings"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/factor_mdpi_14_dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Switch
+            android:id="@+id/Fragment_Security_Settings_CB_EnableAll_Options"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textOff="@string/switch_off_text"
+            android:textOn="@string/switch_on_text"
+            android:textSize="@dimen/textAppearance_mdpi_10_sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Fragment_Security_Settings_Tv_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.3"
+        android:gravity="top|left"
+        android:lineSpacingExtra="@dimen/factor_mdpi_01_dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textAppearance_mdpi_07_sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <Button
+            android:id="@+id/Fragment_Security_Settings_BT_Save_Orders"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:background="@drawable/counter_bg"
+            android:gravity="center"
+            android:text="Save"
+            android:textSize="@dimen/textAppearance_mdpi_12_sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".09" />
+
+        <Button
+            android:id="@+id/Fragment_Security_Settings_BT_Reset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:background="@drawable/counter_bg"
+            android:gravity="center"
+            android:text="Reset"
+            android:textSize="@dimen/textAppearance_mdpi_12_sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3" />
+
+</LinearLayout>

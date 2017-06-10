@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sortOrder">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="String_Application_Name">POSimplicity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="merchant">admin</string>
+    <string name="merchantPassword">password1</string>
+    <string name="clerk">clerk</string>
+    <string name="password">abc1234</string>
+    <string name="showtotalamount">0.0</string>
+    <string name="transId">Trans Id</string>
+    <string name="transTime">Date &amp; Time</string>
+    <string name="search_product">Search Product</string>
+    <string name="addQtytext">Item Quantity</string>
+    <string name="productNametext">Fresh Banana Shake </string>
+    <string name="itemQtytext">1</string>
+    <string name="subtotaltext">Item Sub-total</string>
+    <string name="pricetext"> 0.0</string>
+    <string name="todo">TODO</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="totalamtMsg">Total \nAmount</string>
+    <string name="tipamtMsg">Tip \nAmount</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="expiration">Expiration</string>
+    <string name="name_as_on_the_card">Name as on the card</string>
+    <string name="daily_report">Daily Report</string>
+    <string name="shift_report">Shift Report</string>
+    <string name="total">Total</string>
+    <string name="tax">Tax</string>
+    <string name="total_including_tax">Total Including Tax</string>
+    <string name="cashtotal">CashTotal</string>
+    <string name="creditcard">CreditCard</string>
+    <string name="check">Check</string>
+    <string name="reward">Reward Amount</string>
+    <string name="gift">Gift Amount</string>
+    <string name="print">Print</string>
+    <string name="back">Back</string>
+    <string name="new_shift">New Shift</string>
+    <string name="under25">Transaction Under $25</string>
+    <string name="over25">Transaction Over $25</string>
+    <string name="gateway">Gateway Name</string>
+    <string name="ntpnow">NTPnow Id</string>
+    <string name="globalusername">Global Username</string>
+    <string name="globalpassword">Global Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="chartview">Chart View</string>
+    <string name="textTodisplay">Enter Text to Display</string>
+    <string name="leftmargin">Left Margin</string>
+    <string name="headerText">Header Text</string>
+    <string name="enterText">Enter Text Here</string>
+    <string name="testprint">Test Print</string>
+    <string name="enter_mobile_no">Enter Customer Phone No.</string>
+    <string name="reward_balance">Reward Points Balance</string>
+    <string name="enterbarcode">Enter Barcode</string>
+    <string name="enter_customer_name">Enter Customer Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="switch_on_text">Enable</string>
+    <string name="switch_off_text">Disable</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Printer Setting</item>
+        <item>CreditCard Setting</item>
+        <item>Support</item>
+        <item>Sync Data</item>
+        <item>Rewards Management</item>
+        <item>Security</item>
+        <item>Other Setting</item>
+        <item>Tender</item>
+        <item>Online Management Portal</item>
+        <item>About</item>
+        <item>Exit</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/icon_5</item>
+        <item>@drawable/icon_6</item>
+        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_3</item>
+        <item>@drawable/icon_4</item>
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_8</item>
+        <item>@drawable/icon_8</item>
+        <item>@drawable/icon_2</item>
+        <item>@drawable/icon_9</item>
+        <item>@drawable/icon_10</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_maintenance">MaintenanceActivity</string>
+
+    <string-array name="listItems">
+        <item>NTPNow</item>
+        <item>BridgePay</item>
+        <item>PlugNPay</item>
+    </string-array>
+    <string-array name="functionslist">
+        <item>Tender Card</item>
+        <item>Other Setting</item>
+    </string-array>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_product_qty">ProductQtyActivity</string>
+    <string name="title_activity_pending_order">PendingOrderActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <!-- All font famliy Name with String Tag -->
+
+    <string name="HelveticaInseratLTStd_Roman">HelveticaInseratLTStd-Roman</string>
+    <string name="HelveticaLTStd_Blk">HelveticaLTStd-Blk</string>
+    <string name="HelveticaLTStd_BlkCond">HelveticaLTStd-BlkCond</string>
+    <string name="HelveticaLTStd_BlkCondObl">HelveticaLTStd-BlkCondObl</string>
+    <string name="HelveticaLTStd_BlkObl">HelveticaLTStd-BlkObl</string>
+    <string name="HelveticaLTStd_Bold">HelveticaLTStd-Bold</string>
+    <string name="HelveticaLTStd_BoldCond">HelveticaLTStd-BoldCond</string>
+    <string name="HelveticaLTStd_BoldCondObl">HelveticaLTStd-BoldCondObl</string>
+    <string name="HelveticaLTStd_BoldObl">HelveticaLTStd-BoldObl</string>
+    <string name="HelveticaLTStd_Comp">HelveticaLTStd-Comp</string>
+    <string name="HelveticaLTStd_Cond">HelveticaLTStd-Cond</string>
+    <string name="HelveticaLTStd_CondObl">HelveticaLTStd-CondObl</string>
+    <string name="HelveticaLTStd_ExtraComp">HelveticaLTStd-ExtraComp</string>
+    <string name="HelveticaLTStd_Light">HelveticaLTStd-Light</string>
+    <string name="HelveticaLTStd_LightCond">HelveticaLTStd-LightCond</string>
+    <string name="HelveticaLTStd_LightCondObl">HelveticaLTStd-LightCondObl</string>
+    <string name="HelveticaLTStd_LightObl">HelveticaLTStd-LightObl</string>
+    <string name="HelveticaLTStd_Obl">HelveticaLTStd-Obl</string>
+    <string name="HelveticaLTStd_Roman">HelveticaLTStd-Roman</string>
+    <string name="HelveticaLTStd_UltraComp">HelveticaLTStd-UltraComp</string>
+    <string name="Gabrielle">Gabrielle</string>
+    <string name="plugnpay_id">Enter PlugNPay ID</string>
+    <string name="credit_card_settings">Credit Card Settings</string>
+    <string name="noble_id">Noble ID</string>
+    <string name="noble_password">Noble Password</string>
+    <string name="check_to_enable_noblegateway">Enable NobleGateway</string>
+    <string name="admin_settings">Security</string>
+    <string name="please_check_to_collapse_items_in_item_options_list">Please check to collapse items in item options list</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="printer_settings">Printer Settings</string>
+    <string name="title_activity_function">FunctionActivity</string>
+
+    <string-array name="payment_mode">
+        <item>None</item>
+        <item>Cash</item>
+        <item>Credit</item>
+        <item>Check</item>
+    </string-array>
+
+    <string name="title_activity_report_activity_as_child">ReportActivityAsChild</string>
+    <string name="title_activity_sync">SyncActivity</string>
+    <string name="String_Company_CopyRights">\u00A9 Copyright 2013 - 2015 Key Register LLC.</string>
+    <string name="String_No_Interent_Available">Please Connect With Working Internet</string>
+    <string name="String_Retry">Retry</string>
+    <string name="String_Cancel">Cancel</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_daily_report_as_child">DailyReportAsChild</string>
+    <string name="title_activity_char_view">CharView For Daily Sales</string>
+    <string name="title_activity_security">SecurityActivity</string>
+    <string name="title_activity_functions">FunctionsActivity</string>
+    <string name="title_activity_function_drawer">FunctionDrawerActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_clerk_screen">PayGrade Screen</string>
+    <string name="title_activity_add_clerk_screen_sales">Sales Clerk Screen</string>
+    <string name="title_activity_temp_sync">TempSyncActivity</string>
+    <string name="title_activity_comment">Comment Screen</string>
+    <string name="title_activity_tip_report_as_child">TipReportScreen</string>
+    <string name="title_activity_add_descption">AddPayoutDescption</string>
+    <string name="title_activity_pending">Pending Order Screen</string>
+    <string name="title_activity_reprint">ReprintScreen</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected to %1$s</string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="title_activity_main_activity1">Connection</string>
+    <string name="title_activity_new_tender">Tender</string>
+    <string name="title_activity_sync_option">SyncOptionActivity</string>
+
+</resources>

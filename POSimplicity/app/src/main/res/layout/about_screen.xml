@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.98" >
+
+        <TextView
+            android:id="@+id/Fragment_About_TV_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="About"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textAppearance_mdpi_14_sp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/factor_mdpi_01_dp"
+            android:layout_gravity="bottom"
+            android:background="#b1b1b1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40.50" >
+
+        <TextView
+            android:id="@+id/Fragment_About_TV_VersionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/factor_mdpi_06_dp"
+            android:drawableTop="@drawable/app_icon"
+            android:gravity="center"
+            android:text=" Version 2 \n App 155"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/factor_mdpi_13_dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="#b1b1b1" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="41.16"
+        android:gravity="center"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="POSimplicity provides you and your employees an intuitive and fast way to ring up orders. The POS app also helps a company grow through an automated social media marketing plug in that is fully integrated into a customer rewards the program. The point of sale app also has a module that allows retail storefront businesses to create and operate an online store using the same control panel that is used to create cash register buttons and track inventory."
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textAppearance_mdpi_10_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.45"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="top"
+            android:background="#b1b1b1" />
+
+        <TextView
+            android:id="@+id/Activity_Descrption_TV_Continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="All Right Reserved"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textAppearance_mdpi_10_sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</LinearLayout>
