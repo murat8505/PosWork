@@ -1,5 +1,11 @@
 package com.posimplicity;
 
+import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.os.Bundle;
+
 import com.PosInterfaces.PrefrenceKeyConst;
 import com.PosInterfaces.SocketInterface;
 import com.PosInterfaces.WebServiceCallObjectIds;
@@ -7,12 +13,9 @@ import com.Socket.SocketIO;
 import com.Utils.GlobalApplication;
 import com.Utils.InternetConnectionDetector;
 import com.Utils.MyPreferences;
+import com.crashlytics.android.Crashlytics;
 
-import android.app.Activity;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.os.Bundle;
+import io.fabric.sdk.android.Fabric;
 
 public abstract class BaseActivity extends Activity implements PrefrenceKeyConst,SocketInterface,WebServiceCallObjectIds{
 
@@ -37,6 +40,7 @@ public abstract class BaseActivity extends Activity implements PrefrenceKeyConst
 			socketIO.connectSocket();
 			globalApp.setSocketIo(socketIO);
 		}
+		Fabric.with(this, new Crashlytics());
 	}
 
 	@SuppressWarnings("unchecked")

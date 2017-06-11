@@ -117,7 +117,7 @@ public class DejavooFragment extends BaseFragment {
             @Override
             public boolean onLongClick(View v) {
 
-                if (!BluetoothUtils.isBluetoothAvailabe()) {
+                if (!BluetoothUtils.isBluetoothAvailable()) {
                     BlueToothNotSupported.onBlueTooth(mContext);
                     return true;
                 }

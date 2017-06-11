@@ -14,7 +14,6 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.GET_TASKS" />
-
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -38,7 +37,7 @@
             android:name=".OperatorActivity"
             android:label="Operator Screen"
             android:screenOrientation="landscape" />
-          <activity
+        <activity
             android:name=".MaintenanceActivity"
             android:label="Settings Screen"
             android:screenOrientation="landscape"
@@ -56,12 +55,11 @@
             android:screenOrientation="landscape"
             android:theme="@style/PopupTheme"
             android:windowSoftInputMode="adjustPan" />
-
         <activity
             android:name=".DeviceListActivity"
             android:label="@string/select_device"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.Dialog"></activity>
+            android:theme="@android:style/Theme.Dialog" />
         <activity
             android:name=".ShiftReportActivity"
             android:label="Shift Report"
@@ -74,7 +72,7 @@
         <activity
             android:name=".SetupActivity"
             android:label="@string/title_activity_setup"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".DailyReportAsChild"
             android:label="Daily Report"
@@ -96,7 +94,7 @@
         <activity
             android:name=".FunctionDrawerActivity"
             android:label="@string/title_activity_functions"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".AddClerkPaygradeActivity"
             android:label="@string/title_activity_add_clerk_screen"
@@ -118,7 +116,7 @@
         <activity
             android:name=".SyncActivity"
             android:label="@string/title_activity_sync"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".CommentActivity"
             android:label="@string/title_activity_comment"
@@ -173,7 +171,7 @@
 
         <activity
             android:name=".SyncOptionActivity"
-            android:label="@string/title_activity_sync_option"></activity>
+            android:label="@string/title_activity_sync_option" />
 
         <receiver
             android:name="com.BackGroundService.MyBluetoothReceiver"
@@ -183,6 +181,10 @@
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
             </intent-filter>
         </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="51b905127fed8a1a6812a0df86f054be4cb938dd" />
     </application>
 
 </manifest>

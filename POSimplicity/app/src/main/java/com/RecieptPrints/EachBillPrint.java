@@ -91,7 +91,7 @@ public class EachBillPrint implements PrefrenceKeyConst{
 
 				@Override
 				public void onStarted(BasePR printerCmmdO) {
-					PrintRecieptCustomer pReciept = new PrintRecieptCustomer(mContext);
+					PrintReceiptCustomer pReciept = new PrintReceiptCustomer(mContext);
 					for(int index = 0 ; index < numdersOfReciepts ; index ++){
 						pReciept.onEachBillPriniting(SplitBillAdapter.paymentMode,SplitBillAdapter.amountToPaid,printerCmmdO);
 					}
@@ -101,7 +101,7 @@ public class EachBillPrint implements PrefrenceKeyConst{
 			}).onStart();
 		}
 		if(PrintSettings.isAbleToPrintCustomerReceiptThroughBluetooth(mContext)){
-			PrintRecieptCustomer pReciept = new PrintRecieptCustomer(mContext);
+			PrintReceiptCustomer pReciept = new PrintReceiptCustomer(mContext);
 			for(int index = 0 ; index < numdersOfReciepts ; index ++){
 				pReciept.onEachBillPriniting(SplitBillAdapter.paymentMode,SplitBillAdapter.amountToPaid,GlobalApplication.getInstance().getmBasePrinterBT());
 			}

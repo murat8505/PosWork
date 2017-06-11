@@ -16,7 +16,6 @@ import com.Fragments.PlugNPayFragment;
 import com.Fragments.ProPayFragment;
 import com.Fragments.TSYSFragment;
 import com.PosInterfaces.PrefrenceKeyConst;
-import com.Utils.GlobalApplication;
 import com.Utils.MyPreferences;
 import com.Utils.ToastUtils;
 import com.Utils.Variables;
@@ -118,7 +117,7 @@ public class ResetDialogForCCAdmin implements PrefrenceKeyConst{
 					MyPreferences.setBooleanPrefrences(DEJAVO_PAYMENT_VIA_BLUETOOTH, false,mContext);
 					MyPreferences.setBooleanPrefrences(DEJAVO_PRMOPT_D_C, false,mContext);
 					MyPreferences.setMyPreference(PrefrenceKeyConst.REMOTE_DEVICE_ADDRESS, "", mContext);
-					BluetoothUtils.closeBluetootSocket();
+					BluetoothUtils.closeBluetoothSocketForceFully();
 					dejavooFragment.setMacAddressOnTextView();
 					Variables.forceCloseBluetooth = false;
 					ServiceUtils.operateBTDejavooService(mContext, false);

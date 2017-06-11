@@ -5,7 +5,7 @@ import com.AsyncTasks.ShareOrderWithCustomer;
 import com.Fragments.CreditFragment;
 import com.PosInterfaces.PrefrenceKeyConst;
 import com.RecieptPrints.GoForPrint;
-import com.RecieptPrints.PrintRecieptCustomer;
+import com.RecieptPrints.PrintReceiptCustomer;
 import com.RecieptPrints.PrintSettings;
 import com.SetupPrinter.BasePR;
 import com.SetupPrinter.PrinterCallBack;
@@ -71,7 +71,7 @@ public class OfflinePayment implements PrefrenceKeyConst{
 						if(MyPreferences.getBooleanPrefrences(IS_DUPLICATE_RECIEPT_ON_PS, mContext))
 							numdersOfReciepts++;
 						for(int index = 0 ; index < numdersOfReciepts ; index ++){
-							new PrintRecieptCustomer(mContext).onPrintRecieptCustomer(printerCmmdO, true);
+							new PrintReceiptCustomer(mContext).onPrintRecieptCustomer(printerCmmdO, true);
 						}
 						onHalfAmountPrinting();
 					}
@@ -83,7 +83,7 @@ public class OfflinePayment implements PrefrenceKeyConst{
 				if(MyPreferences.getBooleanPrefrences(IS_DUPLICATE_RECIEPT_ON_PS, mContext))
 					numdersOfReciepts++;
 				for(int index = 0 ; index < numdersOfReciepts ; index ++){
-					new PrintRecieptCustomer(mContext).onPrintRecieptCustomer(globalApplication.getmBasePrinterBT(), true);
+					new PrintReceiptCustomer(mContext).onPrintRecieptCustomer(globalApplication.getmBasePrinterBT(), true);
 				}
 			}	
 
@@ -119,7 +119,7 @@ public class OfflinePayment implements PrefrenceKeyConst{
 						if(MyPreferences.getBooleanPrefrences(IS_DUPLICATE_RECIEPT_ON_PS, mContext))
 							numdersOfReciepts++;
 						for(int index = 0 ; index < numdersOfReciepts ; index ++){
-							new PrintRecieptCustomer(mContext).onPrintRecieptCustomer(printerCmmdO, true);
+							new PrintReceiptCustomer(mContext).onPrintRecieptCustomer(printerCmmdO, true);
 						}
 						onHalfAmountPrinting();
 					}
@@ -131,7 +131,7 @@ public class OfflinePayment implements PrefrenceKeyConst{
 				if(MyPreferences.getBooleanPrefrences(IS_DUPLICATE_RECIEPT_ON_PS, mContext))
 					numdersOfReciepts++;
 				for(int index = 0 ; index < numdersOfReciepts ; index ++){
-					new PrintRecieptCustomer(mContext).onPrintRecieptCustomer(globalApplication.getmBasePrinterBT(), true);
+					new PrintReceiptCustomer(mContext).onPrintRecieptCustomer(globalApplication.getmBasePrinterBT(), true);
 				}
 			}
 

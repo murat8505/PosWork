@@ -74,4 +74,5 @@ public class Variables {
 
 	public static boolean forceCloseBluetooth
 			;
+	public static boolean startPrintingFromBG;
 }

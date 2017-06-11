@@ -54,13 +54,13 @@ public class BluetoothConnector {
 
     public void forceDisconnect() {
         try {
-            BluetoothUtils.closeBluetootSocket();
+            BluetoothUtils.closeBluetoothSocketForceFully();
             if(Variables.forceCloseBluetooth) {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         Variables.forceCloseBluetooth = false;
-                        BluetoothUtils.openBluetootSocketForcly();
+                        BluetoothUtils.openBluetoothSocketForceFully();
                     }
                 }, 100);
             }

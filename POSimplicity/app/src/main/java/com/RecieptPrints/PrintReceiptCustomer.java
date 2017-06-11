@@ -37,7 +37,7 @@ import com.posimplicity.HomeActivity;
  * @author shiva
  *
  */
-public class PrintRecieptCustomer implements PrefrenceKeyConst {
+public class PrintReceiptCustomer implements PrefrenceKeyConst {
 
 	private Context mContext;
 	private HomeActivity instance;
@@ -57,7 +57,7 @@ public class PrintRecieptCustomer implements PrefrenceKeyConst {
 	private final String GIFT_TEXT       = "Gift Card:";
 
 
-	public PrintRecieptCustomer(Context mContext) 
+	public PrintReceiptCustomer(Context mContext)
 	{
 		this.mContext        = mContext;
 		this.instance        = HomeActivity.localInstance;

@@ -1,7 +1,5 @@
 package com.Fragments;
 
-import org.json.JSONObject;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -27,7 +25,7 @@ import com.Database.CustomerTable;
 import com.PosInterfaces.AddCustomerInterface;
 import com.PosInterfaces.MyWebClientClass;
 import com.RecieptPrints.KitchenReceipt;
-import com.RecieptPrints.PrintRecieptCustomer;
+import com.RecieptPrints.PrintReceiptCustomer;
 import com.RecieptPrints.PrintSettings;
 import com.SetupPrinter.BasePR;
 import com.SetupPrinter.PrinterCallBack;
@@ -38,6 +36,8 @@ import com.Utils.MyPreferences;
 import com.Utils.ToastUtils;
 import com.Utils.Variables;
 import com.posimplicity.R;
+
+import org.json.JSONObject;
 
 public class BarFragment  extends BaseFragment implements OnClickListener, TextWatcher{
 
@@ -267,7 +267,7 @@ public class BarFragment  extends BaseFragment implements OnClickListener, TextW
 
 								@Override
 								public void onStarted(BasePR printerCmmdO) {
-									PrintRecieptCustomer printRecieptUSB = new PrintRecieptCustomer(mContext);
+									PrintReceiptCustomer printRecieptUSB = new PrintReceiptCustomer(mContext);
 									printRecieptUSB.onPrintRecieptCustomer(printerCmmdO, true);	
 									onCallAfterPrintRequest();
 								}
@@ -276,7 +276,7 @@ public class BarFragment  extends BaseFragment implements OnClickListener, TextW
 							return;
 						}						
 						if(PrintSettings.isAbleToPrintCustomerReceiptThroughBluetooth(mContext)){
-							PrintRecieptCustomer printRecieptUSB = new PrintRecieptCustomer(mContext);
+							PrintReceiptCustomer printRecieptUSB = new PrintReceiptCustomer(mContext);
 							printRecieptUSB.onPrintRecieptCustomer(gApp.getmBasePrinterBT(), true);
 						}
 						onCallAfterPrintRequest();

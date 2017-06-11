@@ -1,6 +1,6 @@
 package com.Dialogs;
 
-import com.PosInterfaces.KeyBoardKey;
+import com.PosInterfaces.KeyboardKey;
 import com.PosInterfaces.PrefrenceKeyConst;
 import com.PosInterfaces.WebServiceCallObjectIds;
 import com.Utils.GlobalApplication;
@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 
-public abstract class BaseDialog extends Dialog implements WebServiceCallObjectIds,PrefrenceKeyConst,KeyBoardKey{
+public abstract class BaseDialog extends Dialog implements WebServiceCallObjectIds,PrefrenceKeyConst,KeyboardKey {
 
 	private View rootView;
 	private LayoutInflater layoutInflater;

@@ -1,12 +1,5 @@
 package com.posimplicity;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,6 +10,7 @@ import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,16 +21,16 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ExpandableListView;
-import android.widget.PopupMenu;
-import android.widget.ScrollView;
-import android.widget.Toast;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.AlertDialogWithOptions.RefundOptionsDialog;
 import com.AlertDialogWithOptions.ReportOptionsDailog;
@@ -58,11 +52,11 @@ import com.Database.CategoryTable;
 import com.Database.CustomerTable;
 import com.Database.ProductTable;
 import com.Database.SecurityTable;
-import com.Dialogs.DiscountDialog;
-import com.Dialogs.ProductQtyDialog;
-import com.Dialogs.ProductOptionDialog;
-import com.Dialogs.RefundItemsWithAmt;
 import com.Dialogs.ClerkSalesLoginLogoutDialog;
+import com.Dialogs.DiscountDialog;
+import com.Dialogs.ProductOptionDialog;
+import com.Dialogs.ProductQtyDialog;
+import com.Dialogs.RefundItemsWithAmt;
 import com.PosBroadcast.AutologoutConnectionClass;
 import com.PosBroadcast.SocketConnectionClass;
 import com.RecieptPrints.GoForPrint;
@@ -83,7 +77,13 @@ import com.Utils.SelectedProduct;
 import com.Utils.StartAndroidActivity;
 import com.Utils.ToastUtils;
 import com.Utils.Variables;
-import com.posimplicity.R;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 
 public class HomeActivity extends BaseActivity implements OnCheckedChangeListener, OnClickListener, OnScreenSwitchListener, OnGroupClickListener, OnItemClickListener, TextWatcher{	
@@ -448,7 +448,7 @@ public class HomeActivity extends BaseActivity implements OnCheckedChangeListene
 
 
 	public void resetAllData(Context _context,int statusBit)  // reset ALL The variable At on Initial State
-	{	
+	{
 		Variables.isPendingOrderItems = false;
 		Variables.startNewTrans = true;	
 		Variables.discountDollar = false;
@@ -527,6 +527,10 @@ public class HomeActivity extends BaseActivity implements OnCheckedChangeListene
 
 		if(statusBit == 0 && new CustomerTable(mContext).getInfoFromTableBasedOnLoginStatus(true).size() > 0 && MyPreferences.getBooleanPrefrences(CLERK_ORDER_ASSIGN, mContext))
 			LogoutClerkFromOrders.onLogoutClerkFromOrder(mContext);
+
+		Log.d("GoForPrint", "Do Printing From CompleteReportInMagento BG. All Previous printing has Been Done From HomeActivity line no - 531");
+		Variables.startPrintingFromBG = true;
+
 	}
 
 

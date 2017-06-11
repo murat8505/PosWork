@@ -1,12 +1,6 @@
 package com.Services;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import android.content.Context;
 
 import com.Beans.ProductModel;
 import com.Database.ProductTable;
@@ -14,8 +8,13 @@ import com.Utils.ImageProcessing;
 import com.Utils.JSONObJValidator;
 import com.Utils.MyStringFormat;
 
-import android.content.Context;
-import android.text.TextUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ProductService {
 

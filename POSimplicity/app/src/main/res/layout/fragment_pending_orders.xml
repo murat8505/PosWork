@@ -32,7 +32,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Fragment_Pending_Order_Btn_Save_And_Print_With_USB"
+                android:id="@+id/Fragment_Pending_Order_Btn_Save_And_Print_Customer_Receipt"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="@dimen/factor_mdpi_02_dp"
@@ -45,7 +45,7 @@
                 android:visibility="invisible" />
 
             <Button
-                android:id="@+id/Fragment_Pending_Order_Btn_Save_And_Print_With_Wifi"
+                android:id="@+id/Fragment_Pending_Order_Btn_Save_And_Print_Kitchen_Receipt"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="@dimen/factor_mdpi_02_dp"

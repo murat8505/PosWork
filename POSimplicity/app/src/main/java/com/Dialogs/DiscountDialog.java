@@ -168,7 +168,7 @@ public class DiscountDialog extends BaseDialog {
 			break;
 
 		case R.id.b8:
-			setTextOnView(KEY_EIGTH,ADD_CHAR,discDisplay);
+			setTextOnView(KEY_EIGHT,ADD_CHAR,discDisplay);
 			break;
 
 		case R.id.b9:

@@ -40,7 +40,7 @@
             android:drawablePadding="@dimen/factor_mdpi_06_dp"
             android:drawableTop="@drawable/app_icon"
             android:gravity="center"
-            android:text=" Version 2 \n App 155"
+            android:text=" Version 2 \n App 163"
             android:textColor="@android:color/white"
             android:textSize="@dimen/factor_mdpi_13_dp" />
 

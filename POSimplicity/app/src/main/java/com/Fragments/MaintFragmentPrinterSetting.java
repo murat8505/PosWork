@@ -362,7 +362,7 @@ public class MaintFragmentPrinterSetting extends BaseFragment implements OnClick
 				radioGrpKitchen .check(R.id.Fragment_Printer_Settings_RB_Kitchen_BT);
 
 				// Disable BT And Its Running Service
-				BluetoothUtils.closeBluetootSocket();
+				BluetoothUtils.closeBluetoothSocketForceFully();
 				ServiceUtils.operateBTService(mContext, false);
 				ServiceUtils.operateWFService(mContext, false);
 
@@ -553,7 +553,7 @@ public class MaintFragmentPrinterSetting extends BaseFragment implements OnClick
 
 		case BL_PRINTING_CASE:
 
-			if(!BluetoothUtils.isBluetoothAvailabe()){
+			if(!BluetoothUtils.isBluetoothAvailable()){
 				BlueToothNotSupported.onBlueTooth(mContext);
 				return true;
 			}
